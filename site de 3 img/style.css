@@ -1,18 +1,18 @@
 body {
-    background-color: black;
+    background-color: grey;
     text-align: center;
-    font: normal 15px italic;
-    color: blueviolet;
 }
 
 div#divimg {
     display: flex;
-    align-items: center;
     justify-content: center;
+    justify-content: space-around;
+    padding: 40px;
 }
 
 h1 {
-    text-shadow: 1px 1px 10px violet;
+    font: normal 35px Arial;
+    text-shadow: 1px 1px 5px green;
 }
 
 div#div1 {
@@ -23,7 +23,7 @@ div#div1 {
     padding: 15px;
     border-radius: 10px;
     font: normal 20px Arial;
-    box-shadow: 1px 1px 10px violet;
+    box-shadow: 1px 1px 10px green;
 }
 
 div#div2{
@@ -34,24 +34,38 @@ div#div2{
     padding: 5px;
     border-radius: 10px;
     font: normal 12px Arial;
-    box-shadow: 1px 1px 10px red;
+    box-shadow: 1px 1px 10px black;
 }
 
 img#img1 {
     padding: 10px;
-    transition: background 1s;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 20px;
+    transition: background 0.5s;
 }
 img#img1:hover,
 img#img1:focus {
-    background: red;
+    background: green;
 }
 
 img#img2 {
     padding: 10px;
-    transition: background 1s;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 20px;
+    transition: background 0.5s;
 }
 img#img2:hover,
 img#img2:focus {
-    background-color: red;
+    background-color: green;
 }
 
+img#img3 {
+    padding: 10px;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 20px;
+    transition: background 0.5s;
+}
+img#img3:hover,
+img#img3:focus {
+    background-color: green;
+}
